@@ -42,6 +42,10 @@ stages:
       hash: md5
       md5: 6c7379a200d1c87e1b4178993057120a
       size: 11358
+      cloud:
+        my_storage:
+          etag: 6c7379a200d1c87e1b4178993057120a
+          version_id: 000615A9663C0F85
   evaluate_model:
     cmd: python scripts/evaluate.py
     deps:
@@ -67,3 +71,7 @@ stages:
       hash: md5
       md5: 64fc1180a3a1d67e64423c7af632112e
       size: 95
+      cloud:
+        my_storage:
+          etag: 64fc1180a3a1d67e64423c7af632112e
+          version_id: 000615A9663BB8F2
