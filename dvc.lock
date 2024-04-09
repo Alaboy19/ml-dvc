@@ -19,6 +19,10 @@ stages:
         my_storage:
           etag: 9fe1f5092eca5901bcb7570bd1d6cfa8
           version_id: '00061595888061E1'
+      cloud:
+        my_storage:
+          etag: 9fe1f5092eca5901bcb7570bd1d6cfa8
+          version_id: 000615A995C9AB2A
   fit_model:
     cmd: python scripts/fit.py
     deps:
@@ -46,6 +50,12 @@ stages:
         my_storage:
           etag: 6c7379a200d1c87e1b4178993057120a
           version_id: 000615A9663C0F85
+      md5: 775e5edb1f7a3b5e2a5937724da652e7
+      size: 1101367
+      cloud:
+        my_storage:
+          etag: 775e5edb1f7a3b5e2a5937724da652e7
+          version_id: 000615A995C7DB68
   evaluate_model:
     cmd: python scripts/evaluate.py
     deps:
@@ -75,3 +85,9 @@ stages:
         my_storage:
           etag: 64fc1180a3a1d67e64423c7af632112e
           version_id: 000615A9663BB8F2
+      md5: 9a87fbdfa525117caee34c08248bc84f
+      size: 96
+      cloud:
+        my_storage:
+          etag: 9a87fbdfa525117caee34c08248bc84f
+          version_id: 000615A995C8884B
