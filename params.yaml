@@ -2,7 +2,8 @@
 index_col: 'customer_id'
 target_col: 'target'
 one_hot_drop: 'if_binary'
-auto_class_weights: 'Balanced'
+C: 1
+penalty: 'l2'
 n_splits: 5
 metrics: ['f1', 'roc_auc']
 n_jobs: -1
