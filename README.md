@@ -1,6 +1,6 @@
 # mle-dvc
 
-Pipeline Description
+This repo is self tutorial of dvc usage for ml pipeline automation. 
 --------------------
 The pipeline description, represented as `dvc.yaml`, consists of:
 
